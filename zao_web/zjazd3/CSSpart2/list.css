@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+    background-color: white;
+}
+ul {
+    list-style-type: none;
+}
+div{
+    display: inline-table;
+}
+.open > .icon {
+    background: url("icons.png");
+    width: 11px;
+    height: 11px;
+    background-position: -2px -20px;
+}
+
+.closed > .icon {
+    background: url("icons.png");
+    width: 11px;
+    height: 11px;
+    background-position: -2px -3px;
+}
+
+.leaf > .icon {
+    background: url("icons.png");
+    width: 11px;
+    height: 14px;
+    background-position: -2px -34px;
+}
+.icon {
+    cursor: pointer;
+}

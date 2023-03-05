@@ -1,0 +1,30 @@
+ul {
+    list-style-type: none;
+    background-color: silver;
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+}
+
+.clickable:hover {
+    cursor: pointer;
+    background-color: gray;
+}
+
+.double {
+    border-top: solid 1px;
+    border-left: solid 1px;
+    border-right: solid 1px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.clickable {
+    border-top: solid 1px;
+    border-left: solid 1px;
+    border-right: solid 1px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}

@@ -1,0 +1,15 @@
+@media print{
+    
+    article#spis {
+        display: none;
+    }
+    
+    p#walidacja_html{
+        content: 'Wydruk ze strony ...';
+    }
+    
+    a.spis{
+        display: none;
+    }
+    
+}

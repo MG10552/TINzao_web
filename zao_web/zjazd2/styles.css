@@ -1,0 +1,48 @@
+@import url("display.css");
+@import url("print.css");
+body {
+    background-color: darkkhaki;
+    font-family: serif;
+    padding-left: 16em;
+     }
+h1 {
+    font-family: sans-serif;
+}
+        
+ul.books {
+    list-style-type: upper-roman;
+}
+        
+span.nazwisko {
+    text-transform: uppercase;
+    font-style: normal;
+}
+span.title {
+    font-style: italic;
+}
+        
+footer {
+    height:1px;
+    background-color: silver;
+    border-bottom:1px solid #313030;
+}
+
+ul.wyksztalcenie{
+    display: none;
+    margin-left: -20px;
+}
+
+li.wyksztalcenie:hover ul.wyksztalcenie{
+    display: block;
+}
+
+h5{
+    margin: 10px;    
+}
+
+a:link, a:visited, a:active {
+    color: black;
+}
+a:hover{
+    color: darkred;
+}

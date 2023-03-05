@@ -1,0 +1,32 @@
+ul {
+    list-style-type: none;
+}
+
+div {
+    display: inline-flex;
+}
+
+.open > .icon {
+    background: url('icons.png');
+    width: 12px;
+    height: 11px;
+    background-position: -2px -20px;
+}
+
+.closed > .icon {
+    background: url('icons.png');
+    width: 12px;
+    height: 14px;
+    background-position: -2px 0;
+}
+
+.leaf > .icon {
+    background: url('icons.png');
+    width: 12px;
+    height: 14px;
+    background-position: -1px -33px;
+}
+
+.icon {
+    cursor: pointer;
+}

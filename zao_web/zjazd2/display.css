@@ -1,0 +1,19 @@
+@media screen{
+    
+    article#spis {
+        position: fixed;
+        top: 1em;
+        left: 0em;
+        background-color: darksalmon;
+        padding-right: 20px;
+        padding-left: 11px;
+        border: 1px;
+        border-style: solid;
+        border-color: darkred;
+    }
+    
+    p#walidacja_html{
+        content: url(http://jigsaw.w3.org/css-validator/images/vcss);
+    }
+    
+}

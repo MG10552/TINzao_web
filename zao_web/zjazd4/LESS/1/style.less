@@ -1,0 +1,80 @@
+@basic_red: #FF9999;
+@midRed: lighten(pink,0%);
+@light-red: lighten(@basic_red,15%);
+
+header {
+    
+    background-color: @basic_red;
+    img{
+        align-content: center;
+    }
+}
+
+body {
+    background-color: @basic_red;
+}
+div#container{
+    display: flex;
+    flex-flow: row wrap;
+}
+div#main{
+    //order: 1;
+    background-color: @light-red;
+    width: 50%;
+    //display: flex;
+    
+    flex-direction: column;
+    align-self: center;
+     justify-content: center;
+}
+
+
+nav {
+    //display: flex;
+    flex-flow: nowrap;
+    ul{
+        background-image: url(images/bg_nav.png);
+        height: 30px;
+
+        li{
+        margin: 5px 5px 0px 0px;
+        padding-left: 20px;
+        display: inline-block;
+        border-left: black solid 2px;
+
+        &:hover {
+        background-image: url(images/bg_nav_h.png);
+
+            a{
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-family: sans-serif;
+             }
+            }
+           }
+}
+}
+
+
+
+div#left{
+    //order: 0;
+    background-color: @midRed;
+    width: 25%;
+    //display: flex;
+    //flex-direction: column;
+    //align-self: flex-start;
+    //flex-wrap: nowrap;
+     //justify-content: flex-start;
+}
+
+div#important{
+    //order: 3;
+   width: 25%;
+    //display: flex;
+    //flex-direction: column;
+    //align-self: flex-end;
+    //flex-wrap: nowrap;
+     //justify-content: flex-end;
+}

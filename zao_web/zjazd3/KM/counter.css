@@ -1,0 +1,22 @@
+body {
+    counter-reset: number;
+    background-color: #eeffcc;
+}
+
+h1:before {
+    content: 'Rozdział ' counter(number) '. ';
+    counter-increment: number;
+}
+
+h1 {
+    counter-reset: numberDec;
+}
+
+h2:before {
+    content: counter(number) '.' counter(numberDec, decimal) ' ';
+    counter-increment: numberDec;
+}
+
+p {
+    align-self: flex-start;
+}
